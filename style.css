@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #292929;
+  font-family: 'calibri';
+}
+
+header {
+  background: #fff;
+  width: 100%;
+  clear: both;
+  content:'';
+  display: table;
+  height: 120px;
+}
+
+.menu {
+  width: 900px;
+  margin: 0 auto;
+}
+
+header img {
+  width: 200px;
+  height: 200px;
+  float: left;
+  padding: 8px;
+  position: relative;
+  object-fit: cover;
+
+
+}
+
+nav {
+  float: right;
+  margin-top: 80px;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 75px;
+  padding: 12px 0;
+  float: left;
+  position: relative;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+nav ul li a::before {
+  display: block;
+  content: '';
+  width: 0%;
+  background: #444;
+  height: 5px;
+  top:0;
+  position: absolute;
+  transition: width 0.2s;
+}
+
+nav ul li a:hover::before {
+  width: 100%;
+}
+.titulo-final {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0 0;
+  color: #9e9797;
+}
+.h4{
+  color: #ccc;
+  border-bottom: 3px solid #af20d3;
+  padding-bottom: 3px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+}
+.cf{
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #ccc;
+  background-size: cover;
+  background-attachment: fixed;
+
+  height: 200px;
+}
+.cfoo{
+  text-align: center;
+}
+.fp {
+  color: #9e9797;
+}
+section {
+  color: #fff;
+}
+.section{
+  float: left;
+  margin: 30px 10px 50px 0;
+  padding: 1em;
+  width: 65%;
+
+
+}
+p {
+  margin-top: 50px;
+  font-size: 20px;
+  text-align: justify;
+}
+h2 {
+  margin-top: 50px;
+  text-align: center;
+  color: #fff;
+}
+aside h2 {
+  margin-bottom: 80px;
+}
+aside img {
+  float: center;
+  margin-left: 60px;
+
+}
+aside p {
+  margin: 50px 50px 70px 50px;
+  color: #fff;
+}
